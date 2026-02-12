@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel="icon" href="link_img.jpeg">
+        <style>
+            body{
+                background-color: rgb(39, 23, 77);
+                color: white;
+                display: flexbox;
+                display: inline-flexbox;
+                margin: 0;
+                padding: 0;
+                
+            }
+            .head{
+                background-color: hsl(210, 40%, 96%);
+                background-image: url(bg.jpeg);
+                padding: 50px;
+                text-align: center;
+                color: white;
+                border-radius: 8px;
+                text-shadow: 0 0 20px;
+                
+                
+            }
+           
+            
+            .sidebar{ 
+                background-color: darkgreen;
+                width: 300px;
+                height: 450px;
+                border-radius: 15px;
+                margin-left: 40%;
+                font-size: large;
+                border-radius: 20px;
+                border-style: solid;   
+              
+            }
+            .sidebar:hover{
+               transform: scale(1.3);
+               width: 0 0 350px;
+               box-shadow: 0 0 10px;
+            }
+            .img{
+                width: 200px;
+                height: 200px;
+                padding: 49px;
+                border-radius: 20%;
+                
+            }
+            .timeline{
+                background-color: darkgrey;
+                border-radius: 5px;
+                width: 220px ;
+                height: 4px;
+                align-items: center;
+            }
+           
+             .time{
+                display: flex;
+                justify-content: space-between;
+                font-size: small;
+            } 
+            .timecontrol
+            {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+            }
+
+            
+            
+            
+               .greenline{
+                background-color: darkslateblue;
+                border-radius: 5px;
+                width: 150px;
+                height: 4px;
+            } 
+           
+            
+           
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div>
+       <h1 class="head">MUSIC PLAYER</h1></div>
+       
+       <div class="sidebar">
+       
+           <img src="Young And Beautiful.jpeg" class="img"   >
+           <div class="timecontrol">
+             <div class="time">
+            <span>3.41</span></div>
+             <div class="timeline" >
+                <div class="greenline" ></div>
+             </div>
+              
+             <div class="time">
+             <span>5.42</span></div>
+             </div>
+            
+
+          
+         
+            <h3 style=" margin-bottom:3px; text-align: center; ">Young and Beautiful</h3>
+            <h5 style="margin-top:0px; text-align: center; margin-bottom: 4px;"><i> Lana Del Rey</i></h5>
+              <div class="controls" style="text-align: center; margin-top: 12px;">
+            <button>&#9198</button>
+            <button>&#9654</button>
+            <button>&#9197</button>
+            
+
+        </div>
+         
+       </div>
+       </div>
+    </body>
+</html>
